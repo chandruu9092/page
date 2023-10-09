@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cat profile</title>
+  <style>
+    .div-main{
+      width: 130px;
+      border: 1px solid black;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      
+      box-shadow: 1px 1px 3px rgb(144, 142, 142);
+    }
+        .div-cat-img{
+          width: 130px;
+          height: 130px;
+          margin-bottom: 10px;
+          
+          object-fit: fill;
+        }
+              .cat-img{
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                
+               
+              }
+
+        .div-cat-name{
+          width: 100px;
+          
+          margin-bottom: 5px;
+        }
+              .cat-name{
+                margin: 0;
+                padding: 0 0 0 5px;
+                
+                font-weight: bold;
+              }
+        .div-cat-pro{
+          width: 120px;
+          margin: 0 0 10px 0;
+          padding: 0;
+          display: grid;
+          grid-template-columns:20px 80px ;
+          column-gap: 5px;
+        }
+              .cat-pro-img{
+                width: 20px;
+                height: 20px;
+                margin: 0 0 0 5px;
+                
+                padding: 0;
+                border-radius: 10px;
+                object-fit: fill;
+              }
+              .cat-pro-mut{
+                width: 80px;
+                margin: 0;
+                
+                font-size: 10px;
+                padding: 3px 0 0 5px;
+              }
+        .div-but{
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          height: auto;
+
+        }
+            .but-add{
+              margin-left: 5px;
+              margin-bottom: 5px;
+              background-color: rgb(53, 149, 212);
+              color: white;
+              border: none;
+              padding: 3px 10px 3px 10px;
+              cursor: pointer;
+              border-radius: 3px;
+            }
+        .main-grid{
+          display: grid;
+          grid-template-columns: 130px 130px 130px;
+          column-gap: 5px;
+        }
+
+  </style>
+</head>
+<body>
+  <div class="main-grid">
+    <div class="div-main">
+      <div class="div-cat-img">
+        <img class="cat-img" src="cat.jpg" alt="">
+      </div>
+      <div class="div-cat-name">
+        <p class="cat-name">Oliver</p>
+      </div>
+      <div class="div-cat-pro">
+        <img class="cat-pro-img" src="cat.jpg" alt="">
+        <p class="cat-pro-mut">2 mutual friends</p>
+      </div>
+      <div class="div-but">
+        <button class="but-add">Add follow</button>
+      </div>
+    </div>
+  
+    <div class="div-main">
+      <div class="div-cat-img">
+        <img class="cat-img" src="sleepy cat.jpg" alt="">
+      </div>
+      <div class="div-cat-name">
+        <p class="cat-name">Mutt</p>
+      </div>
+      <div class="div-cat-pro">
+        <img class="cat-pro-img" src="sleepy cat.jpg" alt="">
+        <p class="cat-pro-mut">3 mutual friends</p>
+      </div>
+      <div class="div-but">
+        <button class="but-add">Add follow</button>
+      </div>
+    </div>
+  
+    <div class="div-main">
+      <div class="div-cat-img">
+        <img class="cat-img" src="happy cat.jpg" alt="">
+      </div>
+      <div class="div-cat-name">
+        <p class="cat-name">Rex</p>
+      </div>
+      <div class="div-cat-pro">
+        <img class="cat-pro-img" src="happy cat.jpg" alt="">
+        <p class="cat-pro-mut">4 mutual friends</p>
+      </div>
+      <div class="div-but">
+        <button class="but-add">Add follow</button>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
